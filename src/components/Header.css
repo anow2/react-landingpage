@@ -1,0 +1,49 @@
+.Header {
+  background-color: #ffffff;
+  border-bottom: 1px;
+  border-color: #000000;
+  border-bottom-style: solid;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.logo {
+  font-size: 24px;
+  float: left;
+  max-width: 200px;
+}
+
+.ctaButton {
+  background-color: #00d7ff;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+
+.ctaButton:hover {
+  box-shadow: rgba(0, 215, 255, 0.5) 10px 10px 25px 0px;
+}
+
+.link {
+  color: plum;
+  text-transform: uppercase;
+  padding: 15px;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: aqua;
+}

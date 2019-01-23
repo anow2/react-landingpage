@@ -1,0 +1,31 @@
+.Headline {
+  background-color: #ffffff;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/deed1653-fbf8-4eea-be79-18bc04e04932/15cs-background.png);
+  border-bottom: 1px;
+  border-color: #000000;
+  border-bottom-style: solid;
+  height: 200px;
+}
+
+.headlineText {
+  color: white;
+  font-size: 22px;
+}
+.headlineTextBottom {
+  color: white;
+  font-size: 11px;
+}
+.freeGIFButton {
+  background-color: #00d7ff;
+  border: none;
+  color: rgb(48, 30, 129);
+  padding: 10px 24px;
+  display: inline-block;
+  font-size: 11px;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+
+.freeGIFButton:hover {
+  box-shadow: rgba(0, 215, 255, 0.5) 10px 10px 25px 0px;
+}
